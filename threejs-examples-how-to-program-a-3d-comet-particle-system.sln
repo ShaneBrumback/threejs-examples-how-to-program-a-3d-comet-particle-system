@@ -21,6 +21,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "threejs-examples-how-to-pro
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "58241"
+		SlnRelativePath = "..\threejs-examples-how-to-program-a-3d-comet-particle-system\"
 	EndProjectSection
 EndProject
 Global
