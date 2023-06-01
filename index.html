@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Threejs Examples - Comet Particle System</title>
+    <meta name="viewport" content="minimum-scale=1" />
+    <meta name="description" content="Shane Brumback is a full stack 3D Game and Progressive Web Apps (PWA) Web Developer with many years of experience on .NET Framework, AWS Web Services and Micro Services">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="../images/threejs-example-animating-objects.jpg">
+    <meta property="og:url" content="https://www.shanebrumback.com/index.html?version=013123-1">
+    <link rel="canonical" href="https://www.shanebrumback.com/">
+    <meta name="keywords" content="threejs examples particles, 3d, threejs examples, three.js, code examples, 3D game development, webgl, interactive 3D graphics, animations, shane brumback, 3d games, interactive 3d apps, threejs games, web development, metaverse">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="css/app.css">
+
+    <!--Favicon and Mobile Device Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?version=013123-1">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?version=013123-1">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?version=013123-1">
+    <link rel="manifest" href="images/site.webmanifest?version=013123-1">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--Font resources-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-mutate-approach="sync"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+
+    <div id="stickyTitle">
+        <a href="index.html">
+            <h1 id="divShaneBrumbackTitle" style="padding-top: 10px; padding-bottom: 0px" ">
+                SHANE BRUMBACK
+            </h1>
+        </a>
+        <br />
+    </div>
+
+    <div class="content">
+        <center>
+            <center>
+                <h2 style="text-align: center;">
+                    Comet Particle System
+                </h2>
+            </center>
+            <div class="sub-content">
+                In this example I use Three.js and WebGL
+                to construct a comet particle system.
+                For further inspiration,
+                explore additional examples available on my home page.
+                If you require assistance, feel free to contact me using the icon below.
+            </div>
+            <br />
+            <div id='nav-icons-header-footer'>
+                <p><a href="index.html"><i id="HomeIcon" class="fas fa-home fa-lg" style="color: white; padding: 10px; "></i></a></p>
+                <p><a><i onclick="window.location.assign('shane-brumback-contact-me.html')" class="fas fa-comment fa-lg" style="color: white; padding: 10px;"></i></a></p>
+                <p><a href="https://github.com/ShaneBrumback"><i id="amazonIcon" class="fab fa-github fa-lg" style="color: white; padding: 10px;"></i></a></p>
+                <p><a><i onclick="document.documentElement.scrollIntoView({ behavior: 'smooth', block: 'end' })" class="fa fa-download fa-lg" style="color: white; padding: 10px; "></i></a></p>
+                <p><a href="shane-brumback-videos.html"><i class="fab fa-youtube fa-lg" style="color: white; padding: 10px;"></i></a></p>
+                <p><a href="shane-brumback-about-me.html"><i id="HomeIcon" class="fas fa-user fa-lg" style="color: white; padding: 10px;"></i></a></p>
+            </div>
+            <p id="scrollToContactMe">
+            </p>
+        </center>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@latest/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@latest/examples/js/controls/OrbitControls.js"></script>
+    <script src="../module/animate-page-divs.js"></script>
+    <script type="module" src="../module/comet-particle-system.js"></script>
+  
+    <script>
+
+        const animatePage = new animatePageDivs();
+        animatePage.updateDivs('Threejs Particle Example');
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+    </script>
+
+</body>
+</html>
