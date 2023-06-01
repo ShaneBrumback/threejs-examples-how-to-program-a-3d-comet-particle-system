@@ -1,6 +1,8 @@
-# threejs-examples-how-to-program-a-3d-comet-particle-system
-
 # Threejs Examples - How to Program a 3D Comet Particle System
+
+
+https://github.com/ShaneBrumback/threejs-examples-how-to-program-a-3d-comet-particle-system/assets/106123592/2fd87508-de5d-4c7a-b9ed-7d5b434b0f76
+
 
 This repository contains examples of how to program a 3D comet particle system using Three.js. These examples showcase the capabilities of Three.js and demonstrate how to create a mesmerizing and interactive 3D comet effect on the web.
 
